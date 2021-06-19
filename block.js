@@ -1,7 +1,7 @@
 class Block{
     constructor(x, y, width, height) {
         var options = {
-            'restitution':0,
+            'restitution':1,
         }
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.x=x
